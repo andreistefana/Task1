@@ -55,7 +55,7 @@ public class Task1 {
         Assert.assertEquals(resultTitle.getText(), addTitle, "Title is not " + addTitle);
 
         //failed assert example
-       // Assert.assertEquals("toFail", addTitle, "Title is not " + addTitle);
+        // Assert.assertEquals("toFail", addTitle, "Title is not " + addTitle);
 
         //soft verify assertion
         System.out.println(resultTitle.getText() + " vs " + addTitle);
